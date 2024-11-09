@@ -41,6 +41,13 @@ function Navbar() {
               >
               Advisors               
               </Button>
+              <Button
+                sx={{ my: 1, color: 'white', display: 'block' , fontSize:'10'}}
+                component = {Link}
+                to = "/MF-Screener"
+              >
+              MF Screener               
+              </Button>
           </Box>
         </Toolbar>
       </Container>

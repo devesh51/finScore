@@ -6,6 +6,7 @@ import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Heropage from './components/Home/Heropage';
 import Employee from './components/Pages/Employee';
 import Advisor from './components/Pages/Advisor';
+import MFScreener from './components/Home/MFScreener/MFScreener';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
       path : "/advisor",
       element: <Advisor/>
+    },
+    {
+      path : "/MF-Screener",
+      element: <MFScreener/>
     },
     ]
   }
