@@ -37,32 +37,3 @@ const Header = () => {
 
 export default Header;
 
-
-
-
-
-
-// import React from 'react'
-
-// const Header = () => {
-//   return (
-//     <div>
-//         <div><h1>Logo</h1></div>
-//         <nav>
-//             <div>
-//             <ui>
-//                 <li>Evaluate</li>
-//                 <li>Learn</li>
-//                 <li>Invest</li>
-//             </ui>
-//             </div>
-//             <div>
-//                 <button>Login</button>
-//                 <button>Get Started</button>
-//             </div>
-//         </nav>
-//     </div>
-//   )
-// }
-
-// export default Header

@@ -417,18 +417,3 @@ return (
 
 export default FundTable;
 
-
-
-
-
-// import React from 'react'
-
-// const MFScreener = () => {
-//   return (
-//     <div>
-//         <h1>Mutual Fund Screener</h1>
-//     </div>
-//   )
-// }
-
-// export default MFScreener

@@ -31,17 +31,3 @@ const PlanningCard = ({ btnName }) => {
 
 export default PlanningCard;
 
-
-
-// import React from 'react'
-
-// const PlanningCard = ({btnName}) => {
-//   return (
-//     <div>
-//         <p>Planning Card</p>
-//         <button>{btnName}</button>
-//     </div>
-//   )
-// }
-
-// export default PlanningCard
