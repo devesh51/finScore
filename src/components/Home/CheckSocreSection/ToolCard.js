@@ -1,5 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+
 
 const ToolCard = ({ text, btnName, clickHandler }) => {
   return (
@@ -23,7 +25,7 @@ const ToolCard = ({ text, btnName, clickHandler }) => {
       <Typography  gutterBottom>
         {text}
       </Typography>
-      <Button variant="contained" color="primary" onClick={clickHandler}>
+      <Button variant="contained" color="primary" onClick={clickHandler} component = {Link} to = "/checkInvestmentScore">
         {btnName}
       </Button>
     </Box>

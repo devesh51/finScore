@@ -1,13 +1,14 @@
 import React from 'react';
 import ToolCard from './ToolCard';
 import { Grid, Box, Typography } from '@mui/material';
+// import { Navigate } from "react-router-dom";
 
 const CheckScoreSection = () => {
   return (
     <Box 
       sx={{ 
         height: '70vh', 
-        padding: 5, 
+        padding: 3, 
         display: 'flex',
         mt:8,
         justifyContent: 'space-between' 
@@ -17,7 +18,7 @@ const CheckScoreSection = () => {
       <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
         <Box>
           <Typography variant="body1" sx={{ color: '#333',textAlign:'center'}}>
-            Let's evaluate My Financial Wealth with my <b>MyFinScore</b>
+            Let's evaluate My Financial Wealth with <b>MyFinScore</b>
           </Typography>
           <Typography variant="h4" sx={{ mt: 2, fontWeight: 'bold', color: '#1976d2' , textAlign:'center'}}>
             Do You Know
@@ -32,7 +33,7 @@ const CheckScoreSection = () => {
         <Grid item>
         <ToolCard 
               text="Did you pay additional taxes last year?" 
-              btnName="MyTaxScore" 
+              btnName="My Tax Score" 
               clickHandler={() => { console.log('Tax score button clicked') }} 
             />
         </Grid>
@@ -40,7 +41,7 @@ const CheckScoreSection = () => {
         <ToolCard 
               text="Is your mutual fund portfolio doing better than the benchmark?" 
               btnName="My Investment Score" 
-              clickHandler={() => { console.log('Investment score button clicked') }} 
+              clickHandler={() => { console.log("investment score clicked") }} 
             />
         </Grid>
       </Grid>

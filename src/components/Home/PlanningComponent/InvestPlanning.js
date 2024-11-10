@@ -4,8 +4,8 @@ import { Box, Typography, Grid } from '@mui/material';
 
 const InvestPlanning = () => {
   return (
-    <Box sx={{ padding: 3 }}>
-      <Typography variant="h4" gutterBottom>
+    <Box sx={{ padding: 3,m:8 }}>
+      <Typography variant="h4" sx={{ml:8,mb:7}} gutterBottom>
         Create your Personalized
       </Typography>
       <Grid 

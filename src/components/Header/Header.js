@@ -4,7 +4,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
+import { Link } from 'react-router-dom';
 // import { Container } from '@mui/material';
+import logoImg from "../../asset/logoImg.jpg"
 
 const Header = () => {
   return (
@@ -13,8 +15,8 @@ const Header = () => {
         
         {/* Logo and Navigation Links */}
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <Typography variant="h6" component="div" sx={{ mr: 4 }}>
-            MyFinScoreLogo
+          <Typography variant="h6"  sx={{ mr: 4 }} component = {Link} to = "/">
+            <img src={logoImg} alt="logo img" style={{ width: '45px', height: '45px' }}/>
           </Typography>
           <Box component="ul" sx={{ display: 'flex', listStyle: 'none', p: 0, m: 0 }}>
             <Typography component="li" sx={{ mr: 3, cursor: 'pointer' }}>Evaluate</Typography>

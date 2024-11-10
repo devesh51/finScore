@@ -4,7 +4,7 @@ import FindAdvisoComponent from './FindAdvisorComponent/FindAdvisoComponent'
 import InvestPlanning from './PlanningComponent/InvestPlanning'
 import MyFinScoreResearch from './MyFinScoreResearch/MyFinScoreResearch'
 import LmsContainer from './LmsContainer/LmsContainer'
-import Testimonial from './TestimonialContainer.js/Testimonial'
+// import Testimonial from './TestimonialContainer.js/Testimonial'
 
 
 const Heropage = () => {
@@ -15,7 +15,7 @@ const Heropage = () => {
         <InvestPlanning/>
         <MyFinScoreResearch/>
         <LmsContainer/>
-        <Testimonial/>
+        {/* <Testimonial/> */}
     </div>
   )
 }
